@@ -61,7 +61,7 @@ RSpec.describe 'GET /api/v1/articles', type: :request do
     end
 
     it 'return articles of the third category' do
-      expect(response_json['articles'][3]['category']).to eq "tech"
+      expect(response_json['articles'][3]['category']).to eq "food"
     end
   end
 
