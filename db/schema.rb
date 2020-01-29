@@ -44,7 +44,7 @@ ActiveRecord::Schema.define(version: 2020_01_29_092740) do
     t.integer "journalist_id"
     t.boolean "published", default: false
     t.integer "publisher_id"
-    t.integer "category", default: 5
+    t.integer "category", default: 6
   end
 
   create_table "users", force: :cascade do |t|

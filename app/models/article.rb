@@ -6,7 +6,7 @@ class Article < ApplicationRecord
 
   has_one_attached :image
 
-  enum category: [:news, :food, :tech, :culture, :sports, :misc]
+  enum category: [:block, :news, :food, :tech, :culture, :sports, :misc]
 
   def unpublish
     if self.published_before_last_save == true && self.published == false
