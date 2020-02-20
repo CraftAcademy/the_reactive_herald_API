@@ -10,7 +10,6 @@ class ApplicationController < ActionController::API
   end 
 
   protected
-
   def article_not_found
     render json: { error: I18n.t('errors.article_not_found')}, status: 404
   end
