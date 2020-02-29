@@ -17,6 +17,7 @@ gem 'aws-sdk-s3'
 gem 'rails-i18n'
 gem 'globalize'
 gem 'globalize-accessors'
+gem "nokogiri", ">= 1.10.8"
 
 group :development, :test do
   gem 'rspec-rails'
