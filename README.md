@@ -19,7 +19,7 @@ https://the-reactive-herald-ca.netlify.com/
 ## To run locally
 #### Clone repository
 ```
-$ git clone https://github.com/mantanquzzmo/the_reactive_herald_API.git
+$ git clone https://github.com/craftacademy/the_reactive_herald_API.git
 $ cd the_reactive_herald_API
 ```
 
